@@ -9,3 +9,5 @@ It happened just after closing, so only a few employees were there and luckily n
 Your job is to help the invesigation and catch the robber. 
 
 Good luck!
+
+![database structure](https://github.com/mreka91/Making-a-Murderer/blob/main/database.png)
