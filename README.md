@@ -10,4 +10,5 @@ Your job is to help the invesigation and catch the robber.
 
 Good luck!
 
+### The database structure: 
 ![database structure](https://github.com/mreka91/Making-a-Murderer/blob/main/database.png)
