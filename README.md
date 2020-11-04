@@ -2,7 +2,7 @@
 
 ![](https://media.giphy.com/media/vbPzAifIrGycdxnvsO/giphy.gif)
 
-## Instructions :
+## Instructions:
 
 There was a bank robbery in Gothenborgs smallest bank.
 It happened just after closing, so only a few employees were there and luckily no one was harmed but the safe was emptied out! 
