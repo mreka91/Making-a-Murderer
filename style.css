@@ -36,5 +36,37 @@ button:hover {
 
 .solution {
   padding: 12px;
-  margin-bottom: 12px;
+  margin-top: 25px;
+  color: white;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-bottom: 30px;
+  color: red;
+  background-color: whitesmoke;
+  height: 36px;
+  width: 350px;
+  border-style: double;
+  box-shadow: hotpink 1px 2px 2px;
+  animation: blinkingText 1.6s infinite;
+}
+@keyframes blinkingText {
+  0% {
+    color: hotpink;
+  }
+  49% {
+    color: red;
+  }
+  60% {
+    color: transparent;
+  }
+  99% {
+    color: transparent;
+  }
+  100% {
+    color: red;
+  }
 }

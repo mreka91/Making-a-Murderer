@@ -11,7 +11,7 @@
 
 <body>
     <form action="/" method="post">
-        <label for="name">Who do you think the robber is?</label>
+        <label class="name" for="name">Who do you think the robber is?<p><span>&#128110;</span></p></label>
         <input type="text" name="name" id="name" required>
         <button type="submit">Submit</button>
     </form>
