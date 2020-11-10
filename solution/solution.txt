@@ -1,0 +1,33 @@
+Possible Solution
+
+1. Find the smallest bank in Göteborg
+select * from banks where city = 'Göteborg' order by number_of_employees asc limit 1;
+
+2.find out who works at that bank
+select * from Employees where bank_id=16;
+
+3.find out their names to be able to check what they said in the Interviews
+select * from People where id= 2 or id= 16 or id=30;
+
+or with inner join:
+select People.name, Employees.id, Employees.bank_id
+from People
+inner join Employees
+on People.id = Employees.people_id
+where bank_id = 16;
+
+4.find out what they said
+select * from Interviews where name = 'Ella Marshall' or name = 'Mats Ström' or name = 'Ethan Space';
+
+5. find out who bought red overalls
+
+select Purchase_records.items, Account_details.people_id
+from Purchase_records
+inner join  Account_details on Purchase_records.account_id = Account_details.id
+where Purchase_records.items= 'red overalls';
+
+6. check what is their job
+select * from People where id =13 or id=25 or id=47 or id=31;
+
+7.
+solution.php
